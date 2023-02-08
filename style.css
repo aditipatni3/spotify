@@ -92,8 +92,9 @@ nav ul li{
 }
 .songitem img{
     width: 50px;
-    height: 50px;
+    height: 30px;
     border-color: black;
+    
     
     /* margin: 0px 10px; */
 }
