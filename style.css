@@ -54,17 +54,17 @@ nav ul li{
     margin: 20px auto ;
     border-radius: 20px;
     padding: 30px;
-    background-image: url('ab.jpg');
+    background-image: url('img/ab.jpg');
     background-repeat: no-repeat;
     background-position: 100% 100%;
    
 }
 #myprogressbar{
-    width: 1000px;
-    padding-left: 50%;
-    padding-right: 50%;
-    justify-content: center;/* ?*/
-    text-align: center;/*?*/
+     width: 700px;
+    justify-content: center;
+    text-align: center; 
+    margin: 0px auto ;
+    
     
 }
 .icons{
@@ -79,5 +79,28 @@ nav ul li{
     
 }
 .songitem{
+    display: flex;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    /* width: 80%; */
+    margin: 15px 0px;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-radius: 0px 15px 15px 0px;
+
+}
+.songitem img{
+    width: 50px;
+    height: 50px;
+    border-color: black;
     
+    /* margin: 0px 10px; */
+}
+.timestamp{
+    margin: 0px 10px;
+}
+.songlistplay i{
+    cursor: pointer;
+   
 }
